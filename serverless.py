@@ -14,7 +14,7 @@ s = requests.Session()
 
 user = "USERNAME"    # sep账号
 passwd = "PASSWORD"   # sep密码
-api_key = ""  # server酱的api，填了可以微信通知打卡结果，不填没影响
+api_key = "SCT168808T46xxpy8qptvw61VHrRMM7DUE"  # server酱的api，填了可以微信通知打卡结果，不填没影响
 
 
 def login(s: requests.Session, username, password):
